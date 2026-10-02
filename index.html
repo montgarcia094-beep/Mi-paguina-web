@@ -3,74 +3,39 @@
 
 <head>
     <meta charset="UTF-8">
-
     <title>Estructura con Columnas</title>
     <style>
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #f6f7bd;
+            background-color: rgb(74, 19, 18);
             padding: 10px 20px;
+            color: white;
         }
 
-        /* Estilo para controlar el tamaño fijo del logotipo pequeño */
-        .logo-pequeno {
-            width: 50px;
-            /* Ajusta el tamaño que desees */
-            height: auto;
-            display: block;
-        }
-
-        /* Estilo para que la imagen de la cabecera sea responsiva y no se desborde */
-
-
+        /* Estilo con tamaño controlado para el logo de la cabecera */
         .logo-cabecera {
-            max-width: 100%;
+            width: 100px;
             height: auto;
             display: block;
-            margin-bottom: 15px;
-            /* Espacio entre la imagen y el título */
         }
-        .boton-nav {
-            text-decoration: none;
-            color: #e2bfff;
-            background-color: bisque;
-            padding: 6px 12px;
-            border-radius: 4px;
-            font-size: 14px;
-            font-family: sans-serif;
-            transition: background-color 0.3s;
-        }    
-        
-        .boton-nav.hover {
-            background-color: #f6f7bd;
-        }
-
-        .boton-navegacion {
-            display: flex;
-            gap: 15px;
-            margin-top: 10px;
-        }
-
 
         main {
             display: flex;
             gap: 20px;
-
+            margin-top: 15px;
         }
 
         aside {
             width: 25%;
-
-            background-color: #ffa7a7;
+            background-color: rgb(252, 199, 177);
             padding: 15px;
         }
 
-
         section {
             width: 75%;
-            background-color: #e2bfff;
+            background-color: rgb(226, 181, 232);
             padding: 15px;
         }
     </style>
@@ -80,31 +45,28 @@
     <header>
         <div>
             <h1 style="margin: 0;">Mi Sitio Web</h1>
-            <nav>barra de navegacion</nav>
-            <a href="SEMANTICA.HTML" class="boton-nav activo">Inicio</a>
-            <a href="SEMANTICA2.HTML" class="boton-nav">Servicio</a>
-            <a href="SEMANTICA3.HTML" class="boton-nav">Contacto</a>
-        <nav>
+            <nav>Menu de navegacion</nav>
         </div>
-        <img src="https://i.pinimg.com/236x/2d/cb/ee/2dcbee0a8130e93f5b7939a3c09053a0.jpg?nii=t" alt="Logo de Mi Sitio Web" class="logo-cabecera">
+        <img src="imagenes/wendy.jpg" alt="Logo de Mi Sitio Web" class="logo-cabecera">
     </header>
+
     <main>
         <aside>
             <h3>Barra Lateral</h3>
-            <p>Enlaces, publicidad o categorías.</p>
+            <p>Enlaces, publicidad o categorias.</p>
         </aside>
         <section>
             <article>
-                <h2>Artículo Principal</h2>
-                <p>Contenido del artículo...</p>
+                <h2>Articulo principal</h2>
+                <p>Contenido del articulo...</p>
             </article>
         </section>
     </main>
 
     <footer>
-        <p>Pie de página</p>
+        <p>Pie de pagina</p>
     </footer>
-
 </body>
 
 </html>
+
